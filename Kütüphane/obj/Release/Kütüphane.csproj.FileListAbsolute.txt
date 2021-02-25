@@ -1,0 +1,13 @@
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\bin\Release\Kütüphane.exe.config
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.anaform.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.cezalistele.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.kitapekle.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.kitaplistele.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.kitapsilgüncelle.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.kitapver.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.okyckayıtform.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.okycliste.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.okycsilgün.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.Properties.Resources.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.teslimal.resources
+C:\Users\Önder\Desktop\Kütüphane\Kütüphane\obj\Release\Kütüphane.csproj.GenerateResource.Cache

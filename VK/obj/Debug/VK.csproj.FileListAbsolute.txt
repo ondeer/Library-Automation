@@ -1,0 +1,8 @@
+C:\Users\Önder\Desktop\Kütüphane\VK\bin\Debug\VK.dll
+C:\Users\Önder\Desktop\Kütüphane\VK\bin\Debug\VK.pdb
+C:\Users\Önder\Desktop\Kütüphane\VK\obj\Debug\VK.csprojResolveAssemblyReference.cache
+C:\Users\Önder\Desktop\Kütüphane\VK\obj\Debug\VK.dll
+C:\Users\Önder\Desktop\Kütüphane\VK\obj\Debug\VK.pdb
+C:\Users\Önder\Desktop\Kütüphane\VK\bin\Debug\IK.dll
+C:\Users\Önder\Desktop\Kütüphane\VK\bin\Debug\IK.pdb
+C:\Users\Önder\Desktop\Kütüphane\VK\bin\Debug\VK.dll.config

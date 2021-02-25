@@ -1,0 +1,7 @@
+C:\Users\Önder\Desktop\Kütüphane\IK\obj\Debug\IK.csprojResolveAssemblyReference.cache
+C:\Users\Önder\Desktop\Kütüphane\IK\bin\Debug\IK.dll
+C:\Users\Önder\Desktop\Kütüphane\IK\bin\Debug\IK.pdb
+C:\Users\Önder\Desktop\Kütüphane\IK\bin\Debug\VK.dll
+C:\Users\Önder\Desktop\Kütüphane\IK\bin\Debug\VK.pdb
+C:\Users\Önder\Desktop\Kütüphane\IK\obj\Debug\IK.dll
+C:\Users\Önder\Desktop\Kütüphane\IK\obj\Debug\IK.pdb

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79FF0397-3399-4705-B876-B84F97EB5C24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kütüphane</RootNamespace>
+    <AssemblyName>Kütüphane</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=1.0.1812.29779, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anaform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anaform.Designer.cs">
+      <DependentUpon>anaform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cezalistele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cezalistele.Designer.cs">
+      <DependentUpon>cezalistele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitapekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapekle.Designer.cs">
+      <DependentUpon>kitapekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitaplistele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitaplistele.Designer.cs">
+      <DependentUpon>kitaplistele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitapsilgüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapsilgüncelle.Designer.cs">
+      <DependentUpon>kitapsilgüncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitapver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapver.Designer.cs">
+      <DependentUpon>kitapver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="okyckayıtform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="okyckayıtform.Designer.cs">
+      <DependentUpon>okyckayıtform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="okycliste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="okycliste.Designer.cs">
+      <DependentUpon>okycliste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="okycsilgün.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="okycsilgün.Designer.cs">
+      <DependentUpon>okycsilgün.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="teslimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teslimal.Designer.cs">
+      <DependentUpon>teslimal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="anaform.resx">
+      <DependentUpon>anaform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cezalistele.resx">
+      <DependentUpon>cezalistele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapekle.resx">
+      <DependentUpon>kitapekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitaplistele.resx">
+      <DependentUpon>kitaplistele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapsilgüncelle.resx">
+      <DependentUpon>kitapsilgüncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapver.resx">
+      <DependentUpon>kitapver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="okyckayıtform.resx">
+      <DependentUpon>okyckayıtform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="okycliste.resx">
+      <DependentUpon>okycliste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="okycsilgün.resx">
+      <DependentUpon>okycsilgün.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="teslimal.resx">
+      <DependentUpon>teslimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IK\IK.csproj">
+      <Project>{02f9d086-6572-4a37-9436-0efba376f559}</Project>
+      <Name>IK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VK\VK.csproj">
+      <Project>{b093bc92-1e6c-42cd-826c-d532ffb39980}</Project>
+      <Name>VK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
